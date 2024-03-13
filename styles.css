@@ -1,0 +1,149 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+/*.cabecera{
+   background-color: #ea8685;
+   text-align: center;
+   padding: 0.4em;
+   font-family: "Merienda", cursive;
+   font-size: 13px;
+   color: white;
+   }
+.logotitulo{
+   border: solid 1px gainsboro;
+}
+header nav ul li{
+   display: flex;
+   gap: 1em;
+   list-style: none;
+}
+.logo{
+   width: 500px;
+   height: 160px;
+}
+a{
+   text-decoration: none;
+}
+img{
+   size: 20%;
+}
+.navegador nav {
+   display: flex;
+   padding: 1em;
+   list-style: none;
+   background-color: #bb4869;
+   justify-content: space-between;
+}
+.navegador nav ul li{
+   color: white;
+   font-family: "Concert One", sans-serif;
+   font-size: 23px;
+}
+.navegador nav span{
+   color: white;
+   font-size: 30px;
+}
+*/
+
+.cabecera{
+   background-color: black;
+   text-align: center;
+   padding: 0.1em;
+   font-family: "Merienda", cursive;
+   font-size: 11px;
+   color: white;
+   }
+
+header nav ul{
+      display: flex;
+      gap: 0em;
+}
+ol, ul{
+   list-style: none;
+}
+header nav ul li{
+   color: white;
+   font-family: "Poppins", sans-serif;
+   font-size: 15px;
+   
+   
+   
+}
+.navegador{
+   background-color: #ff83a0;
+}
+.navegador nav ul{
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+   padding: 5px;
+   padding-right: 40px;
+   gap: 5em;
+}
+.navegador nav{
+   padding: 12px;
+}   
+.contener h1{
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   padding: 4%;
+   font-family: "Permanent Marker", cursive;
+   position: absolute;
+   top: 20%;
+   left: 55%;
+   color: #ff83a0;
+   font-size: 60px;
+   text-shadow: 2px 1px 0 black;
+   
+} 
+
+.contener{
+   
+   position: relative;
+   display: flex;
+   justify-content: center;
+}
+.contener img{
+   width: 100%;
+   height: 100%;
+}
+.contener p{
+   position: absolute;
+   top: 40%;
+   width: 35%;
+   left: 50%;
+   color: white;
+   text-align: center;
+   
+   font-family: "Pacifico", cursive;
+   font-size: 30px;
+   text-shadow: 2px 1px 0 black;
+
+}
+/* Animación de titulo */
+
+h1, p{
+   animation: mover-arriba-abajo 2s 1;
+}
+@keyframes mover-arriba-abajo{
+   from{
+      transform: translateY(60px);
+   }
+   to{
+      transform: translateY(-0px);
+   }
+}
+.ejemplo {
+  display: flex;
+  justify-content: space-around;
+
+  width: 800px;
+  margin: 50px 0;
+  background-color: #d6e9fe;
+}
+
+.item img {
+  display: block;
+}
